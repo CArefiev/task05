@@ -1,6 +1,5 @@
 public class Main {
 
-<<<<<<< HEAD
     static void sum (int a, int b) {
 
         System.out.println("The summ of a and b is: " + a + b);
@@ -25,7 +24,8 @@ public class Main {
     public static void main(String[] args) {
 
         System.out.println(factorial(5));
-
-
+        sum(10,5);
+        prod(10,5);
+        
     }
 }
