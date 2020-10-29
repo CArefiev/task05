@@ -1,5 +1,16 @@
 public class Main {
 
+<<<<<<< HEAD
+    static void sum (int a, int b) {
+
+        System.out.println("The summ of a and b is: " + a + b);
+    }
+
+    static void prod (int a, int b) {
+
+        System.out.println("The product of a and b is: " + a * b);
+    }
+
     public static Double factorial(Integer a) {
 
         double fact = 1;
@@ -14,6 +25,7 @@ public class Main {
     public static void main(String[] args) {
 
         System.out.println(factorial(5));
+
 
     }
 }
