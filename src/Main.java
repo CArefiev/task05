@@ -9,21 +9,9 @@ public class Main {
 
         System.out.println("The product of a and b is: " + a * b);
     }
-
-    public static Double factorial(Integer a) {
-
-        double fact = 1;
-        for (int i = 1; i <= a; i++) {
-
-            fact = fact * i;
-        }
-        return fact;
-    }
-
-
+    
     public static void main(String[] args) {
 
-        System.out.println(factorial(5));
         sum(10,5);
         prod(10,5);
         
